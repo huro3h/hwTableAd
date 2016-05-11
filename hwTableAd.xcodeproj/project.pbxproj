@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4896561CE3F1CD0005CCB8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896551CE3F1CD0005CCB8 /* SystemConfiguration.framework */; };
+		3C4896581CE3F1EA0005CCB8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896571CE3F1EA0005CCB8 /* StoreKit.framework */; };
+		3C48965A1CE3F2010005CCB8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896591CE3F2010005CCB8 /* MessageUI.framework */; };
+		3C48965C1CE3F20D0005CCB8 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C48965B1CE3F20D0005CCB8 /* EventKitUI.framework */; };
+		3C48965E1CE3F2180005CCB8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C48965D1CE3F2180005CCB8 /* EventKit.framework */; };
+		3C4896601CE3F2250005CCB8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C48965F1CE3F2250005CCB8 /* CoreTelephony.framework */; };
+		3C4896621CE3F2300005CCB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896611CE3F2300005CCB8 /* CoreGraphics.framework */; };
+		3C4896641CE3F2390005CCB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896631CE3F2390005CCB8 /* AVFoundation.framework */; };
+		3C4896661CE3F2460005CCB8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896651CE3F2460005CCB8 /* AudioToolbox.framework */; };
+		3C4896681CE3F2500005CCB8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4896671CE3F2500005CCB8 /* AdSupport.framework */; };
+		3C48966C1CE3F2940005CCB8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C48966B1CE3F2940005CCB8 /* GoogleMobileAds.framework */; };
 		3C5765F01CE328C300C45FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5765EF1CE328C300C45FB9 /* AppDelegate.swift */; };
 		3C5765F21CE328C300C45FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5765F11CE328C300C45FB9 /* ViewController.swift */; };
 		3C5765F51CE328C300C45FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5765F31CE328C300C45FB9 /* Main.storyboard */; };
@@ -14,6 +25,8 @@
 		3C5765FA1CE328C300C45FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5765F81CE328C300C45FB9 /* LaunchScreen.storyboard */; };
 		3C5766051CE328C300C45FB9 /* hwTableAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5766041CE328C300C45FB9 /* hwTableAdTests.swift */; };
 		3C5766101CE328C300C45FB9 /* hwTableAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57660F1CE328C300C45FB9 /* hwTableAdUITests.swift */; };
+		3C57661E1CE33C8000C45FB9 /* secVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57661D1CE33C8000C45FB9 /* secVC.swift */; };
+		3C6A8C581CE3F69D001527FA /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C6A8C571CE3F69D001527FA /* json.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C4896551CE3F1CD0005CCB8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C4896571CE3F1EA0005CCB8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3C4896591CE3F2010005CCB8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3C48965B1CE3F20D0005CCB8 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		3C48965D1CE3F2180005CCB8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3C48965F1CE3F2250005CCB8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3C4896611CE3F2300005CCB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C4896631CE3F2390005CCB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3C4896651CE3F2460005CCB8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3C4896671CE3F2500005CCB8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3C48966B1CE3F2940005CCB8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		3C5765EC1CE328C300C45FB9 /* hwTableAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwTableAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5765EF1CE328C300C45FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C5765F11CE328C300C45FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +71,8 @@
 		3C57660B1CE328C300C45FB9 /* hwTableAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwTableAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C57660F1CE328C300C45FB9 /* hwTableAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwTableAdUITests.swift; sourceTree = "<group>"; };
 		3C5766111CE328C300C45FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C57661D1CE33C8000C45FB9 /* secVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secVC.swift; sourceTree = "<group>"; };
+		3C6A8C571CE3F69D001527FA /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C4896681CE3F2500005CCB8 /* AdSupport.framework in Frameworks */,
+				3C4896661CE3F2460005CCB8 /* AudioToolbox.framework in Frameworks */,
+				3C4896641CE3F2390005CCB8 /* AVFoundation.framework in Frameworks */,
+				3C48966C1CE3F2940005CCB8 /* GoogleMobileAds.framework in Frameworks */,
+				3C4896621CE3F2300005CCB8 /* CoreGraphics.framework in Frameworks */,
+				3C4896601CE3F2250005CCB8 /* CoreTelephony.framework in Frameworks */,
+				3C48965E1CE3F2180005CCB8 /* EventKit.framework in Frameworks */,
+				3C48965C1CE3F20D0005CCB8 /* EventKitUI.framework in Frameworks */,
+				3C48965A1CE3F2010005CCB8 /* MessageUI.framework in Frameworks */,
+				3C4896581CE3F1EA0005CCB8 /* StoreKit.framework in Frameworks */,
+				3C4896561CE3F1CD0005CCB8 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +114,16 @@
 		3C5765E31CE328C300C45FB9 = {
 			isa = PBXGroup;
 			children = (
+				3C4896671CE3F2500005CCB8 /* AdSupport.framework */,
+				3C4896651CE3F2460005CCB8 /* AudioToolbox.framework */,
+				3C4896631CE3F2390005CCB8 /* AVFoundation.framework */,
+				3C4896611CE3F2300005CCB8 /* CoreGraphics.framework */,
+				3C48965F1CE3F2250005CCB8 /* CoreTelephony.framework */,
+				3C48965D1CE3F2180005CCB8 /* EventKit.framework */,
+				3C48965B1CE3F20D0005CCB8 /* EventKitUI.framework */,
+				3C4896591CE3F2010005CCB8 /* MessageUI.framework */,
+				3C4896571CE3F1EA0005CCB8 /* StoreKit.framework */,
+				3C4896551CE3F1CD0005CCB8 /* SystemConfiguration.framework */,
 				3C5765EE1CE328C300C45FB9 /* hwTableAd */,
 				3C5766031CE328C300C45FB9 /* hwTableAdTests */,
 				3C57660E1CE328C300C45FB9 /* hwTableAdUITests */,
@@ -97,12 +144,15 @@
 		3C5765EE1CE328C300C45FB9 /* hwTableAd */ = {
 			isa = PBXGroup;
 			children = (
+				3C48966B1CE3F2940005CCB8 /* GoogleMobileAds.framework */,
 				3C5765EF1CE328C300C45FB9 /* AppDelegate.swift */,
 				3C5765F11CE328C300C45FB9 /* ViewController.swift */,
+				3C57661D1CE33C8000C45FB9 /* secVC.swift */,
 				3C5765F31CE328C300C45FB9 /* Main.storyboard */,
 				3C5765F61CE328C300C45FB9 /* Assets.xcassets */,
 				3C5765F81CE328C300C45FB9 /* LaunchScreen.storyboard */,
 				3C5765FB1CE328C300C45FB9 /* Info.plist */,
+				3C6A8C571CE3F69D001527FA /* json.txt */,
 			);
 			path = hwTableAd;
 			sourceTree = "<group>";
@@ -229,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6A8C581CE3F69D001527FA /* json.txt in Resources */,
 				3C5765FA1CE328C300C45FB9 /* LaunchScreen.storyboard in Resources */,
 				3C5765F71CE328C300C45FB9 /* Assets.xcassets in Resources */,
 				3C5765F51CE328C300C45FB9 /* Main.storyboard in Resources */,
@@ -258,6 +309,7 @@
 			files = (
 				3C5765F21CE328C300C45FB9 /* ViewController.swift in Sources */,
 				3C5765F01CE328C300C45FB9 /* AppDelegate.swift in Sources */,
+				3C57661E1CE33C8000C45FB9 /* secVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +449,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/hwTableAd",
+				);
 				INFOPLIST_FILE = hwTableAd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.hwTableAd;
@@ -408,6 +465,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/hwTableAd",
+				);
 				INFOPLIST_FILE = hwTableAd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.hwTableAd;
@@ -482,6 +544,7 @@
 				3C5766161CE328C300C45FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C5766171CE328C300C45FB9 /* Build configuration list for PBXNativeTarget "hwTableAdTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +553,7 @@
 				3C5766191CE328C300C45FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C57661A1CE328C300C45FB9 /* Build configuration list for PBXNativeTarget "hwTableAdUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +562,7 @@
 				3C57661C1CE328C300C45FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
