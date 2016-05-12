@@ -33,8 +33,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 		
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		var detailVC = segue.destinationViewController as! secVC
-		secVC.selectedIndex = selectedIndex
-		secVC.wordsList = self.wordsList
+		// ここでクラスの実体化をしないと使えない
+		detailVC.selectedIndex = selectedIndex
+		detailVC.wordsList = self.wordsList
 	}
 	
 	
